@@ -7,4 +7,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.Windows.Extensions" Version="9.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="files\ascii.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="files\greeting.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>

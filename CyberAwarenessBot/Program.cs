@@ -1,10 +1,9 @@
-﻿namespace CyberAwarenessBot
+﻿class Program
 {
-    internal class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello, World!");
-        }
+        Console.Title = "Cybersecurity Awareness Bot";
+        Chatbot bot = new Chatbot();
+        bot.Start();
     }
 }
