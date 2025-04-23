@@ -97,7 +97,7 @@ public class Chatbot
             case "how are you":
                 return "I'm doing well and yourself, but I’m here to help you stay cyber safe!";
             case "what’s your purpose?":
-            case "what is your purpose":
+            case "what's your purpose":
                 return "I’m here to teach you about cybersecurity basics!";
             case "password safety":
                 return "Safe browsing is the habit of using the internet carefully to avoid security threats." +
