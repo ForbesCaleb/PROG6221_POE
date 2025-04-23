@@ -94,7 +94,7 @@ public class Chatbot
 
         switch (input)
         {
-            case "how are you":
+            case "how are you?":
                 return "I'm doing well and yourself, but I’m here to help you stay cyber safe!";
             case "what’s your purpose?":
             case "what's your purpose":
