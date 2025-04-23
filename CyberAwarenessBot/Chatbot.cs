@@ -33,12 +33,34 @@ public class Chatbot
 
     static void PlayVoiceGreeting()
     {
-        string filePath = "files/greeting.wav"; // Ensure the file is in the correct directory  
-        using (SoundPlayer player = new SoundPlayer(filePath))
+        string filePath = "files/greeting.wav"; // Ensure the file is in the correct directory
+        try
         {
-            player.PlaySync(); // Use Play() for async playback  
+            using (SoundPlayer player = new SoundPlayer(filePath))
+            {
+                player.PlaySync(); // Use Play() for async playback
+            }
+        }
+        catch (FileNotFoundException)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Voice greeting file not found: " + filePath);
+            Console.ResetColor();
+        }
+        catch (InvalidOperationException ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Could not play the greeting sound. Reason: " + ex.Message);
+            Console.ResetColor();
+        }
+        catch (Exception ex)
+        {
+            Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("An unexpected error occurred while playing the greeting sound: " + ex.Message);
+            Console.ResetColor();
         }
     }
+
 
     private void GreetUser()
     {
