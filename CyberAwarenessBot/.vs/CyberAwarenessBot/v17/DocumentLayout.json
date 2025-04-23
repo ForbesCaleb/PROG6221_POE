@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\files\\ascii.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:files\\ascii.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,38 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ascii.txt",
-              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\files\\ascii.txt",
-              "RelativeDocumentMoniker": "files\\ascii.txt",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\files\\ascii.txt",
-              "RelativeToolTip": "files\\ascii.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-04-23T09:43:49.715Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Chatbot.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Chatbot.cs",
               "RelativeDocumentMoniker": "Chatbot.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Chatbot.cs",
               "RelativeToolTip": "Chatbot.cs",
-              "ViewState": "AgIAABYAAADQzMzMzMwawCQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAABA/////78owFsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T09:38:38.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T09:31:31.881Z",
               "EditorCaption": ""
