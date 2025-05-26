@@ -79,13 +79,21 @@ public class ResponseGenerator
         string keywordResponse = "";
 
         // Sentiment detection
-        if (input.Contains("worried") || input.Contains("frustrated"))
+        if (input.Contains("worried") || input.Contains("frustrated") || input.Contains("anxious") || input.Contains("stressed") || input.Contains("overwhelmed"))
         {
-            sentimentResponse = "It's completely understandable to feel that way. You can get worried when it comes to cybersecurity. ";
+            sentimentResponse = "It's completely understandable to feel that way. Cybersecurity can be intimidating, but I'm here to help. ";
         }
-        else if (input.Contains("curious"))
+        else if (input.Contains("curious") || input.Contains("interested") || input.Contains("keen"))
         {
-            sentimentResponse = "That's great! Curiosity is key to cybersecurity awareness. ";
+            sentimentResponse = "That's great! Curiosity is key to staying safe online. ";
+        }
+        else if (input.Contains("confused") || input.Contains("unsure") || input.Contains("don’t know") || input.Contains("uncertain"))
+        {
+            sentimentResponse = "No worries! Cybersecurity can be confusing at first. Let's break it down together. ";
+        }
+        else if (input.Contains("excited") || input.Contains("happy") || input.Contains("glad"))
+        {
+            sentimentResponse = "Awesome! It’s great to see your enthusiasm. ";
         }
 
         // Memory and recall
@@ -98,7 +106,7 @@ public class ResponseGenerator
 
 
 
-        if (input.Contains("remind me what i am interested in") || input.Contains("remind me what I like"))
+        if (input.Contains("remind me what i am interested in") || input.Contains("remind me what i like"))
         {
             var interest = memoryHandler.Recall("interest");
             return interest != null

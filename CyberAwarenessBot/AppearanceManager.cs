@@ -5,14 +5,14 @@ public class AppearanceManager
  public void ShowBotMessage(string message)
     {
         Console.ForegroundColor = ConsoleColor.Green;
-        Console.WriteLine($"\nBot 🤖: {message}");
+        Console.WriteLine($"\nBot : {message}");
         Console.ResetColor();
     }
 
     public void ShowUserPrompt()
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.Write("\nYou 🧠: ");
+        Console.Write("\nYou : ");
         Console.ResetColor();
     }
 

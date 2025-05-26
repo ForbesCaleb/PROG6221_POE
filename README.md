@@ -1,85 +1,118 @@
-# PROG6221_POE
-# Cybersecurity Awareness Bot
+# Cybersecurity Awareness Chatbot
 
-# Cybersecurity Awareness Bot
+## Project Overview
 
-A simple C# console application that acts as a chatbot for basic cybersecurity awareness. The bot greets the user with ASCII art and a voice message (`greeting.wav`), asks for the user’s name, and answers basic cybersecurity questions in a loop until the user types "exit".
+This is a console-based Cybersecurity Awareness Chatbot written in C#. It educates users on basic cybersecurity concepts through a dynamic and interactive conversation. The chatbot supports sentiment detection, remembers user preferences, and enhances engagement with styled terminal output.
 
 ---
 
 ## Features
 
-- **Voice Greeting:** Plays a WAV greeting audio file (`greeting.wav`) at startup.
-- **ASCII Art:** Shows an ASCII banner from a file (`ascii.txt`).
-- **Personalized Greeting:** Greets the user by name.
-- **Chatbot:** Answers questions about common cybersecurity topics (e.g., phishing, password safety, safe browsing).
-- **Interactive Loop:** Responds to user input until "exit" is typed.
-- **Error Handling:** Alerts if required files (`ascii.txt` or `greeting.wav`) are missing or invalid.
+### 1. **Voice and Visual Greeting**
+
+* Loads ASCII art from a file (`ascii.txt`)
+* Plays a greeting audio file (`greeting.wav`)
+
+### 2. **Personalized Greeting**
+
+* Asks for the user’s name and remembers it using an in-memory dictionary.
+
+### 3. **Cybersecurity Keyword Recognition**
+
+* Detects keywords like `password`, `phishing`, `firewall`, etc.
+* Returns a random tip for each keyword using a `Dictionary<string, List<string>>`.
+
+### 4. **Sentiment Detection**
+
+* Responds empathetically to emotional input (e.g. “worried”, “curious”).
+* Combines sentiment and keyword responses in a single reply.
+
+### 5. **Memory & Recall**
+
+* Stores and recalls user preferences (e.g. “my favorite topic is privacy”).
+* Handles alternate phrasing like “the topic I am most interested about is”.
+
+### 6. **Formatted Terminal Output** (via `AppearanceManager`)
+
+* Colors and sections:
+
+  * Headers and section dividers
+  * Bot messages and user input prompts
+  * Errors and success messages
 
 ---
 
-## Folder Structure
+## Project Structure
 
-
----
-
-## Setup & Usage
-
-1. **Clone or download the project folder.**
-2. **Add your files:**
-   - `files/ascii.txt`: Place ASCII art here (plain text file).
-   - `files/greeting.wav`: Place a short WAV audio greeting here.
-     - Make sure your audio file is in **WAV format** (not MP3 or other formats).
-3. **In Visual Studio:**
-   - Right-click both `ascii.txt` and `greeting.wav` in Solution Explorer.
-   - Go to **Properties** > **Copy to Output Directory** > Set to **Copy always**.
-4. **Build and run the solution.**
-5. **Follow on-screen prompts and interact with the bot.**
-
----
-
-## Supported Questions
-
-- `how are you`
-- `what’s your purpose?` or `what is your purpose`
-- `password safety`
-- `phishing`
-- `safe browsing`
-
-If the question is not recognized, the bot will prompt you to rephrase.
+```
+CyberSecurityChatbot/
+│
+├── Program.cs               # Entry point
+├── Chatbot.cs               # Chatbot flow and interaction loop
+├── ResponseGenerator.cs     # Handles keyword and sentiment analysis
+├── MemoryHandler.cs         # Stores and retrieves user data
+├── GreetingManager.cs       # ASCII art and sound playback
+├── AppearanceManager.cs     # Console styling for enhanced UI
+├── files/
+│   ├── ascii.txt            # ASCII art file
+│   └── greeting.wav         # Voice greeting
+└── README.md                # Project description
+```
 
 ---
 
-## WAV File Notes
+## ▶ How to Run
 
-- **Required:** The chatbot will attempt to play `files/greeting.wav` at startup.
-- **If the file is missing or not a valid WAV:**  
-  You will see a red error message in the console.
-- **WAV Format Only:**  
-  Ensure the file is `.wav` format. MP3 files are not supported by `System.Media.SoundPlayer`.
+1. Open the project in **Visual Studio** or your favorite IDE.
+2. Ensure your project structure includes a `files` folder with:
 
----
-
-## Troubleshooting
-
-- **ASCII file not found:**  
-  Make sure `ascii.txt` exists in the `files` folder.
-- **WAV file not found or incorrect format:**  
-  Make sure `greeting.wav` is in the `files` folder and is a valid WAV file.
-- **Sound not playing:**  
-  Sound playback only works on Windows. Ensure your file is in `.wav` format.
-- **To convert MP3 to WAV:**  
-  Use any free online converter, or in Windows, open with Audacity and export as WAV.
+   * `ascii.txt` for the welcome ASCII art
+   * `greeting.wav` for the audio greeting
+3. Build and run the project.
 
 ---
 
-## License
+##  Requirements
 
-MIT License (or add your own).
+* .NET 6.0 SDK or later
+* Console application project template
+* Windows OS (for `System.Media.SoundPlayer` to work)
 
 ---
 
-## Example
+##  Example Conversation
+
+```
+=== CYBERSECURITY AWARENESS BOT ===
+
+What's your name? Caleb
+Nice to meet you, Caleb!
+
+----------------------------------------
+Ask a cybersecurity question or type 'exit' to quit:
+You : I'm worried about my password
+
+Bot : It's completely understandable to feel that way. Scammers can be very convincing. Make sure to use strong, unique passwords for each account.
+----------------------------------------
+```
+
+---
+
+## Educational Goal
+
+The chatbot helps users:
+
+* Understand and recognize cybersecurity risks
+* Learn best practices in an engaging way
+* Get real-time feedback and support
+
+---
+
+## Authors
+
+* Caleb Forbes
+
+Feel free to extend the bot with more topics, a GUI version, or even machine learning-based sentiment detection!
 
 
 
