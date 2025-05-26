@@ -58,6 +58,14 @@ public class ResponseGenerator
                     "Some hackers help improve security.",
                     "Hackers use special tools and skills."
                 }
+            },
+            { "authentication", new List<string>
+                {
+                    "Authentication checks if someone is who they say they are.",
+                    "It is used to protect systems and data.",
+                    "Passwords are a common form of authentication.",
+                    "Some systems use fingerprints or face scans."
+                }
             }
         };
     }
@@ -73,7 +81,7 @@ public class ResponseGenerator
         // Sentiment detection
         if (input.Contains("worried") || input.Contains("frustrated"))
         {
-            sentimentResponse = "It's completely understandable to feel that way. Scammers can be very convincing. ";
+            sentimentResponse = "It's completely understandable to feel that way. You can get worried when it comes to cybersecurity. ";
         }
         else if (input.Contains("curious"))
         {
@@ -81,19 +89,14 @@ public class ResponseGenerator
         }
 
         // Memory and recall
-        if (input.Contains("my favorite topic is"))
-        {
-            var topic = input.Replace("my favorite topic is", "").Trim();
-            memoryHandler.Remember("interest", topic);
-            return $"Great! I'll remember that you're interested in {topic}. It's a crucial part of staying safe online.";
-        }
-
         if (input.Contains("the topic i am most interested about is"))
         {
             var topic = input.Replace("the topic i am most interested about is", "").Trim();
             memoryHandler.Remember("interest", topic);
             return $"Great! I'll remember that you're interested in {topic}. It's a crucial part of staying safe online.";
         }
+
+
 
         if (input.Contains("remind me what i am interested in") || input.Contains("remind me what I like"))
         {

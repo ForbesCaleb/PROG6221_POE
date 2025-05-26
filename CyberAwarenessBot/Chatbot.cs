@@ -1,6 +1,5 @@
-﻿
+﻿// Chatbot.cs
 using System;
-
 
 public class Chatbot
 {
@@ -8,12 +7,14 @@ public class Chatbot
     private MemoryHandler memoryHandler;
     private ResponseGenerator responseGenerator;
     private GreetingManager greetingManager;
+    private AppearanceManager appearanceManager;
 
     public Chatbot()
     {
         memoryHandler = new MemoryHandler();
         responseGenerator = new ResponseGenerator(memoryHandler);
         greetingManager = new GreetingManager();
+        appearanceManager = new AppearanceManager();
     }
 
     public void Start()
@@ -44,14 +45,15 @@ public class Chatbot
 
         do
         {
+            appearanceManager.ShowDivider();
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("\nAsk a cybersecurity question or type 'exit' to quit:");
+            Console.WriteLine("Ask a cybersecurity question or type 'exit' to quit:");
             Console.ResetColor();
-            Console.Write("> ");
+            appearanceManager.ShowUserPrompt();
             input = Console.ReadLine()?.ToLower();
 
             string response = responseGenerator.GenerateResponse(input);
-            Console.WriteLine(response);
+            appearanceManager.ShowBotMessage(response);
 
         } while (input != "exit");
     }
