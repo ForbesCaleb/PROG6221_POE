@@ -58,7 +58,6 @@ public class ResponseGenerator
                     "Some hackers help improve security.",
                     "Hackers use special tools and skills."
                 }
-         
             }
         };
     }
@@ -68,12 +67,18 @@ public class ResponseGenerator
         if (string.IsNullOrWhiteSpace(input))
             return "I didn’t quite understand that. Could you rephrase?";
 
+        string sentimentResponse = "";
+        string keywordResponse = "";
+
         // Sentiment detection
         if (input.Contains("worried") || input.Contains("frustrated"))
-            return "It's completely understandable to feel that way. Scammers can be very convincing. Let me share some tips to help you stay safe.";
-
-        if (input.Contains("curious"))
-            return "That's great! Curiosity is key to cybersecurity awareness. What would you like to learn more about?";
+        {
+            sentimentResponse = "It's completely understandable to feel that way. Scammers can be very convincing. ";
+        }
+        else if (input.Contains("curious"))
+        {
+            sentimentResponse = "That's great! Curiosity is key to cybersecurity awareness. ";
+        }
 
         // Memory and recall
         if (input.Contains("my favorite topic is"))
@@ -83,22 +88,39 @@ public class ResponseGenerator
             return $"Great! I'll remember that you're interested in {topic}. It's a crucial part of staying safe online.";
         }
 
-        if (input.Contains("remind me what I like"))
+        if (input.Contains("the topic i am most interested about is"))
         {
-            var interest = memoryHandler.Recall("interest");
-            return interest != null ? $"As someone interested in {interest}, you might want to review the security settings on your accounts."
-                                    : "I don’t recall your interests yet. Let me know what you're interested in!";
+            var topic = input.Replace("the topic i am most interested about is", "").Trim();
+            memoryHandler.Remember("interest", topic);
+            return $"Great! I'll remember that you're interested in {topic}. It's a crucial part of staying safe online.";
         }
 
+        if (input.Contains("remind me what i am interested in") || input.Contains("remind me what I like"))
+        {
+            var interest = memoryHandler.Recall("interest");
+            return interest != null
+                ? $"As someone interested in {interest}, you might want to review the security settings on your accounts."
+                : "I don’t recall your interests yet. Let me know what you're interested in!";
+        }
+
+        // Keyword detection
         foreach (var keyword in keywordResponses.Keys)
         {
             if (input.Contains(keyword))
             {
                 var responses = keywordResponses[keyword];
-                return responses[random.Next(responses.Count)];
+                keywordResponse = responses[random.Next(responses.Count)];
+                break;
             }
+        }
+
+        // Final response combining sentiment + keyword
+        if (!string.IsNullOrEmpty(sentimentResponse) || !string.IsNullOrEmpty(keywordResponse))
+        {
+            return $"{sentimentResponse}{keywordResponse}";
         }
 
         return "I'm not sure I understand. Can you try rephrasing?";
     }
 }
+
