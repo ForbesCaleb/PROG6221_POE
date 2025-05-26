@@ -42,8 +42,7 @@
               "RelativeToolTip": "MemoryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:35:38.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T16:35:38.331Z"
             },
             {
               "$type": "Document",
@@ -51,9 +50,9 @@
               "Title": "ResponseGenerator.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\ResponseGenerator.cs",
               "RelativeDocumentMoniker": "ResponseGenerator.cs",
-              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\ResponseGenerator.cs*",
-              "RelativeToolTip": "ResponseGenerator.cs*",
-              "ViewState": "AgIAABcAAACAAAAAAAAuwDEAAABAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\ResponseGenerator.cs",
+              "RelativeToolTip": "ResponseGenerator.cs",
+              "ViewState": "AgIAAD4AAAAgY2ZmZuYnwCYAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T16:35:13.431Z",
               "EditorCaption": ""
@@ -68,8 +67,7 @@
               "RelativeToolTip": "GreetingManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:34:15.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T16:34:15.365Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Chatbot.cs",
               "ViewState": "AgIAAAAAAAAAMjMzMzMrwAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:38:38.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T09:38:38.69Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:31:31.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T09:31:31.881Z"
             }
           ]
         }
