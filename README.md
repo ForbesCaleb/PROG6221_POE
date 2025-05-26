@@ -98,21 +98,9 @@ Bot : It's completely understandable to feel that way. Scammers can be very conv
 
 ---
 
-## Educational Goal
 
-The chatbot helps users:
 
-* Understand and recognize cybersecurity risks
-* Learn best practices in an engaging way
-* Get real-time feedback and support
 
----
-
-## Authors
-
-* Caleb Forbes
-
-Feel free to extend the bot with more topics, a GUI version, or even machine learning-based sentiment detection!
 
 
 
