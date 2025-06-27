@@ -1,102 +1,151 @@
-# Cybersecurity Awareness Chatbot
+CyberAwarenessBotGUI - ReadMe
 
-## Project Overview
+Project Overview
 
-This is a console-based Cybersecurity Awareness Chatbot written in C#. It educates users on basic cybersecurity concepts through a dynamic and interactive conversation. The chatbot supports sentiment detection, remembers user preferences, and enhances engagement with styled terminal output.
+CyberAwarenessBotGUI is a C# Windows Forms chatbot application designed to educate users on cybersecurity. It features personalized interactions, quizzes, task management, sentiment detection, and activity logging.
 
----
+Features
 
-## Features
+Chatbot Core
 
-### 1. **Voice and Visual Greeting**
+ASCII text art + voice greeting on launch
 
-* Loads ASCII art from a file (`ascii.txt`)
-* Plays a greeting audio file (`greeting.wav`)
+Personalized welcome using user's name
 
-### 2. **Personalized Greeting**
+Cybersecurity advice based on keywords (e.g., "firewall", "password")
 
-* Asks for the user’s name and remembers it using an in-memory dictionary.
+Sentiment-aware responses (e.g., stress, curiosity, happiness)
 
-### 3. **Cybersecurity Keyword Recognition**
+Goodbye message includes the user’s name
 
-* Detects keywords like `password`, `phishing`, `firewall`, etc.
-* Returns a random tip for each keyword using a `Dictionary<string, List<string>>`.
+NLP Capabilities
 
-### 4. **Sentiment Detection**
+Input normalization: .ToLower().Trim()
 
-* Responds empathetically to emotional input (e.g. “worried”, “curious”).
-* Combines sentiment and keyword responses in a single reply.
+Keyword matching via input.Contains(...)
 
-### 5. **Memory & Recall**
+Sentiment detection via fixed emotion keyword lists
 
-* Stores and recalls user preferences (e.g. “my favorite topic is privacy”).
-* Handles alternate phrasing like “the topic I am most interested about is”.
+Contextual memory using MemoryHandler (e.g., remembers user interests)
 
-### 6. **Formatted Terminal Output** (via `AppearanceManager`)
+Intent recognition using simple rule-based checks
 
-* Colors and sections:
+Quiz System
 
-  * Headers and section dividers
-  * Bot messages and user input prompts
-  * Errors and success messages
+Ask single questions (ask me a question)
 
----
+Start full quiz (start quiz, cybersecurity quiz)
 
-## Project Structure
+Gives feedback on answers like "Great job!" or "Try again."
 
-```
-CyberSecurityChatbot/
-│
-├── Program.cs               # Entry point
-├── Chatbot.cs               # Chatbot flow and interaction loop
-├── ResponseGenerator.cs     # Handles keyword and sentiment analysis
-├── MemoryHandler.cs         # Stores and retrieves user data
-├── GreetingManager.cs       # ASCII art and sound playback
-├── AppearanceManager.cs     # Console styling for enhanced UI
-├── files/
-│   ├── ascii.txt            # ASCII art file
-│   └── greeting.wav         # Voice greeting
-└── README.md                # Project description
-```
+Task Management
 
----
+Add task: add task - description ; remind in X days
 
-## ▶ How to Run
+Complete task: complete task - task name
 
-1. Open the project in **Visual Studio** or your favorite IDE.
-2. Ensure your project structure includes a `files` folder with:
+Delete task: delete task - task name
 
-   * `ascii.txt` for the welcome ASCII art
-   * `greeting.wav` for the audio greeting
-3. Build and run the project.
+View all tasks: show tasks
 
----
+Activity Log
 
-##  Requirements
+Tracks major interactions and commands (e.g., startup, questions, tasks)
 
-* .NET 6.0 SDK or later
-* Console application project template
-* Windows OS (for `System.Media.SoundPlayer` to work)
+Command: show log
 
----
+How to Use the App
 
-##  Example Conversation
+Start the Application
 
-```
-=== CYBERSECURITY AWARENESS BOT ===
+HomeForm launches with ASCII text + voice greeting
 
-What's your name? Caleb
-Nice to meet you, Caleb!
+Click “Start Chat” to open the chatbot window
 
-----------------------------------------
-Ask a cybersecurity question or type 'exit' to quit:
-You : I'm worried about my password
+Interact Using These Commands
 
-Bot : It's completely understandable to feel that way. Scammers can be very convincing. Make sure to use strong, unique passwords for each account.
-----------------------------------------
-```
+Ask questions like what is phishing?
 
----
+Trigger the quiz: start quiz or ask me a question
+
+Set interest: the topic I am most interested about is social engineering
+
+Recall interest: remind me what I like
+
+Manage tasks: add task, complete task, delete task, show tasks
+
+View log: show log
+
+Exit chatbot: exit
+
+Quiz Feedback
+
+If you answer correctly: response includes praise (e.g., "Correct! Well done!")
+
+If you answer incorrectly: response includes guidance
+
+NLP Summary
+
+Feature
+
+Status
+
+Text Normalization
+
+There
+
+Keyword Matching
+
+There
+
+Sentiment Detection
+
+There
+
+Memory Recall (Context)
+
+There
+
+Intent Recognition
+
+There
+
+Machine Learning NLP
+
+Not there
+
+Synonym/Fuzzy Matching
+
+Not there
+
+📁 File Structure
+
+CyberAwarenessBotGUI/
+├── Forms/
+│   ├── HomeForm.cs
+│   ├── FormChat.cs
+│   ├── InputDialog.cs
+├── Logic/
+│   ├── AppearanceManager.cs
+│   ├── Chatbot.cs
+│   ├── GreetingManager.cs
+│   ├── MemoryHandler.cs
+│   ├── QuizManager.cs
+│   ├── ResponseGenerator.cs
+│   ├── TaskManager.cs
+├── Resources/
+│   ├── ascii.txt
+│   └── greeting.wav
+├── Program.cs
+└── README.md
+
+Known Issues & Fixes
+
+If audio plays twice: make sure PlayVoiceGreeting() runs only once in HomeForm
+
+If ask me a question doesn't work: ensure the ResponseGenerator has proper conditionals
+
+If scroll not working during quiz: check RichTextBox scroll settings (ScrollBars = Vertical)
 
 
 
