@@ -120,7 +120,10 @@ CyberAwarenessBotGUI/
 
 Always enable Two-Factor Authentication (2FA) on all important accounts and be cautious of unexpected emails and links.
 
-
+Youtube Link:
+https://youtu.be/Vul9-iElmlc
+GIT Hub Link:
+https://github.com/ForbesCaleb/PROG6221_POE.git
 
 
 
