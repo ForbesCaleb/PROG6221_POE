@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\responsegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:responsegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\quizquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:quizquestions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:chatbot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\appearancemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +25,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\greetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:greetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot\\taskassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{390990E7-2A7E-4199-938E-030C02F7F314}|CyberAwarenessBot.csproj|solutionrelative:taskassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,8 +54,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "ActivityLog.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\ActivityLog.cs",
+              "RelativeToolTip": "ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:47:10.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\QuizManager.cs",
+              "RelativeDocumentMoniker": "QuizManager.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\QuizManager.cs",
+              "RelativeToolTip": "QuizManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:46:38.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuizQuestions.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\QuizQuestions.cs",
+              "RelativeDocumentMoniker": "QuizQuestions.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\QuizQuestions.cs",
+              "RelativeToolTip": "QuizQuestions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:46:12.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskAssistant.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\TaskAssistant.cs",
+              "RelativeDocumentMoniker": "TaskAssistant.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\TaskAssistant.cs",
+              "RelativeToolTip": "TaskAssistant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:45:38.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Task.cs",
+              "RelativeDocumentMoniker": "Task.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Task.cs",
+              "RelativeToolTip": "Task.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T11:45:07.134Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -44,36 +124,33 @@
               "RelativeDocumentMoniker": "AppearanceManager.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\AppearanceManager.cs",
               "RelativeToolTip": "AppearanceManager.cs",
-              "ViewState": "AgIAAAgAAABQMzMzM1MwwA4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T18:25:26.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T18:25:26.654Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MemoryHandler.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\MemoryHandler.cs",
               "RelativeDocumentMoniker": "MemoryHandler.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\MemoryHandler.cs",
               "RelativeToolTip": "MemoryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:35:38.331Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T16:35:38.331Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ResponseGenerator.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\ResponseGenerator.cs",
               "RelativeDocumentMoniker": "ResponseGenerator.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\ResponseGenerator.cs",
               "RelativeToolTip": "ResponseGenerator.cs",
-              "ViewState": "AgIAAEcAAACAmZmZmZkmwFkAAACEAAAAAAAAAA==",
+              "ViewState": "AgIAALEAAAAAAAAAAAAUwP8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-26T16:35:13.431Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-26T16:35:13.431Z"
             },
             {
               "$type": "Document",
@@ -83,35 +160,34 @@
               "RelativeDocumentMoniker": "GreetingManager.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\GreetingManager.cs",
               "RelativeToolTip": "GreetingManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-26T16:34:15.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Chatbot.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Chatbot.cs",
               "RelativeDocumentMoniker": "Chatbot.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Chatbot.cs",
               "RelativeToolTip": "Chatbot.cs",
-              "ViewState": "AgIAACYAAACA/////78swBkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T09:38:38.69Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T09:31:31.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T09:31:31.881Z"
             }
           ]
         }

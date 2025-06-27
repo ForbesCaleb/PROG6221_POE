@@ -1,30 +1,34 @@
-﻿// Chatbot.cs
-using System;
+﻿using System;
 
 public class Chatbot
 {
+    //----------------------------------------------------------
+    // Fields
+    //----------------------------------------------------------
     private string userName;
-    private MemoryHandler memoryHandler;
-    private ResponseGenerator responseGenerator;
-    private GreetingManager greetingManager;
-    private AppearanceManager appearanceManager;
+    private readonly MemoryHandler memory = new();
+    private readonly TaskAssistant tasks = new();
+    private readonly QuizManager quiz = new();
+    private readonly ActivityLog log = new();
+    private readonly AppearanceManager ui = new();
+    private readonly GreetingManager greeting = new();
+    private readonly ResponseGenerator responder;
 
+    //----------------------------------------------------------
     public Chatbot()
     {
-        memoryHandler = new MemoryHandler();
-        responseGenerator = new ResponseGenerator(memoryHandler);
-        greetingManager = new GreetingManager();
-        appearanceManager = new AppearanceManager();
+        responder = new ResponseGenerator(memory, tasks, quiz, log, ui);
     }
 
+    //----------------------------------------------------------
     public void Start()
     {
         Console.Clear();
         Console.ForegroundColor = ConsoleColor.White;
-        greetingManager.DisplayAsciiArt("files/ascii.txt");
-        greetingManager.PlayVoiceGreeting();
+        greeting.DisplayAsciiArt("files/ascii.txt");
+        greeting.PlayVoiceGreeting();
         GreetUser();
-        RunInteractionLoop();
+        RunLoop();
     }
 
     private void GreetUser()
@@ -32,29 +36,37 @@ public class Chatbot
         Console.Write("What's your name? ");
         userName = Console.ReadLine();
         Console.WriteLine($"Nice to meet you, {userName}!");
-
         if (!string.IsNullOrWhiteSpace(userName))
-        {
-            memoryHandler.Remember("name", userName);
-        }
+            memory.Remember("name", userName);
     }
-
-    private void RunInteractionLoop()
+    private void RunLoop()
     {
         string input;
-
         do
         {
-            appearanceManager.ShowDivider();
+            //--------------------------------------------------
+            // Check for due reminders each turn
+            //--------------------------------------------------
+            foreach (var t in tasks.DueToday())
+                ui.ShowBotMessage($"🔔 Reminder: {t.Title} is due today!");
+
+            ui.ShowDivider();
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Ask a cybersecurity question or type 'exit' to quit:");
             Console.ResetColor();
-            appearanceManager.ShowUserPrompt();
-            input = Console.ReadLine()?.ToLower();
+            ui.ShowUserPrompt();
+            input = Console.ReadLine()?.Trim();
 
-            string response = responseGenerator.GenerateResponse(input);
-            appearanceManager.ShowBotMessage(response);
+            if (input?.ToLower() == "exit") break;
 
-        } while (input != "exit");
+            var reply = responder.GenerateResponse(input);
+            if (!string.IsNullOrEmpty(reply))
+                ui.ShowBotMessage(reply);
+
+        } while (true);
+
+        ui.ShowBotMessage($"Goodbye {userName}, and stay safe online!");
     }
 }
+
+

@@ -1,0 +1,348 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\responsegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:responsegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:formchat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:homeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:activitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\greetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:greetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:memoryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\inputdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:inputdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\taskassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:taskassistant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\formchat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:formchat.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:quizquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\inputdialog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:inputdialog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\inputdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:inputdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\appearancemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:appearancemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|c:\\users\\lab_services_student\\desktop\\prog6221_poe\\cyberawarenessbot gui\\cyberawarenessbotgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77BB680D-5CD8-4E01-B81E-BDD39BDF183F}|CyberAwarenessBot GUI.csproj|solutionrelative:cyberawarenessbotgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\Task.cs",
+              "RelativeDocumentMoniker": "Task.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\Task.cs",
+              "RelativeToolTip": "Task.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:50:20.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GreetingManager.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\GreetingManager.cs",
+              "RelativeDocumentMoniker": "GreetingManager.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\GreetingManager.cs",
+              "RelativeToolTip": "GreetingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:52:38.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ResponseGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\ResponseGenerator.cs",
+              "RelativeDocumentMoniker": "ResponseGenerator.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\ResponseGenerator.cs",
+              "RelativeToolTip": "ResponseGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:53:37.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\HomeForm.Designer.cs",
+              "RelativeDocumentMoniker": "HomeForm.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\HomeForm.Designer.cs",
+              "RelativeToolTip": "HomeForm.Designer.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwA4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:57:53.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\QuizManager.cs",
+              "RelativeDocumentMoniker": "QuizManager.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\QuizManager.cs",
+              "RelativeToolTip": "QuizManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:51:52.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:27:23.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MemoryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\MemoryHandler.cs",
+              "RelativeDocumentMoniker": "MemoryHandler.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\MemoryHandler.cs",
+              "RelativeToolTip": "MemoryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:49:15.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaskAssistant.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\TaskAssistant.cs",
+              "RelativeDocumentMoniker": "TaskAssistant.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\TaskAssistant.cs",
+              "RelativeToolTip": "TaskAssistant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:50:53.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "QuizQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\QuizQuestion.cs",
+              "RelativeDocumentMoniker": "QuizQuestion.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\QuizQuestion.cs",
+              "RelativeToolTip": "QuizQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:51:21.612Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormChat.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\FormChat.Designer.cs",
+              "RelativeDocumentMoniker": "FormChat.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\FormChat.Designer.cs",
+              "RelativeToolTip": "FormChat.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:13:30.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "InputDialog.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\InputDialog.Designer.cs",
+              "RelativeDocumentMoniker": "InputDialog.Designer.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\InputDialog.Designer.cs",
+              "RelativeToolTip": "InputDialog.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:42:35.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "InputDialog.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\InputDialog.cs",
+              "RelativeDocumentMoniker": "InputDialog.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\InputDialog.cs",
+              "RelativeToolTip": "InputDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:20:53.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeForm.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\HomeForm.cs",
+              "RelativeDocumentMoniker": "HomeForm.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\HomeForm.cs",
+              "RelativeToolTip": "HomeForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:31:30.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppearanceManager.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\AppearanceManager.cs",
+              "RelativeDocumentMoniker": "AppearanceManager.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\AppearanceManager.cs",
+              "RelativeToolTip": "AppearanceManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:53:12.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormChat.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\FormChat.cs",
+              "RelativeDocumentMoniker": "FormChat.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\FormChat.cs [Design]",
+              "RelativeToolTip": "FormChat.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:46:09.798Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActivityLog.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\ActivityLog.cs",
+              "RelativeDocumentMoniker": "ActivityLog.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\ActivityLog.cs",
+              "RelativeToolTip": "ActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:52:13.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CyberAwarenessBotGUI.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\CyberAwarenessBotGUI.cs",
+              "RelativeDocumentMoniker": "CyberAwarenessBotGUI.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\CyberAwarenessBotGUI.cs",
+              "RelativeToolTip": "CyberAwarenessBotGUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:54:29.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormChat.cs",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\FormChat.cs",
+              "RelativeDocumentMoniker": "FormChat.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\FormChat.cs",
+              "RelativeToolTip": "FormChat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T17:36:35.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InputDialog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\InputDialog.cs",
+              "RelativeDocumentMoniker": "InputDialog.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\InputDialog.cs [Design]",
+              "RelativeToolTip": "InputDialog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T19:45:49.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HomeForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\HomeForm.cs",
+              "RelativeDocumentMoniker": "HomeForm.cs",
+              "ToolTip": "C:\\Users\\lab_services_student\\Desktop\\PROG6221_POE\\CyberAwarenessBot GUI\\HomeForm.cs [Design]",
+              "RelativeToolTip": "HomeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T20:42:40.177Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
